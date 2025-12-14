@@ -30,6 +30,9 @@ public class Category {
     @Column(name = "name", nullable = false, length = 100)
     private String name;
 
+    @Column(name = "code", length = 50)
+    private String code;
+
     @ManyToOne
     @JoinColumn(name = "parent_id")
     private Category parent;

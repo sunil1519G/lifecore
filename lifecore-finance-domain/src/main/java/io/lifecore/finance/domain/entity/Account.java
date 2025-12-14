@@ -37,6 +37,12 @@ public class Account {
     @Column(name = "currency", nullable = false, length = 3)
     private String currency;
 
+    @Column(name = "institution", length = 100)
+    private String institution;
+
+    @Column(name = "active", nullable = false)
+    private Boolean active;
+
     @Column(name = "created_at", nullable = false)
     private OffsetDateTime createdAt;
 
