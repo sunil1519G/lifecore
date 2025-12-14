@@ -11,7 +11,7 @@
 	<artifactId>lifecore-observability</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lifecore-observability</name>
-	<description>Auth service</description>
+	<description>Observability service</description>
 
 	<properties>
 		<java.version>17</java.version>
@@ -54,3 +54,4 @@
 	</build>
 
 </project>
+
