@@ -1,0 +1,15 @@
+<!-- ================================= -->
+<!-- Shared Kernel Module POM          -->
+<!-- ================================= -->
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.lifecore</groupId>
+        <artifactId>lifecore-parent</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>lifecore-shared-kernel</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+</project>
